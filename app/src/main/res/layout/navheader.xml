@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:src="@drawable/ic_launcher_foreground"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="30dp"
+        android:layout_marginLeft="6dp"
+        android:text="Anshuman shekhar"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="20dp"
+        android:ellipsize="end"
+        android:layout_marginLeft="6dp"
+        android:maxLines="1"
+        android:text="anshumanshekharbxr2000@gmail.com"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

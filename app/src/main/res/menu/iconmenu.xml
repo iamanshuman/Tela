@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_news"
+        android:icon="@drawable/newspaper"
+        android:title="@string/News"/>
+
+    <item android:id="@+id/menu_memes"
+        android:icon="@drawable/laugh"
+        android:title="@string/Memes"/>
+
+    <item android:id="@+id/menu_poll"
+        android:icon="@drawable/barchart"
+        android:title="@string/Poll"/>
+
+    <item android:id="@+id/menu_Admin"
+        android:icon="@drawable/user"
+        android:title="@string/Admin"/>
+</menu>
